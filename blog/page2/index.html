@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>
+    
+      Jonny Langefeld
+    
+  </title>
+  
+  <link rel="stylesheet" href="/assets/main.css?1.1">
+  <link rel="alternate" type="application/rss+xml" title="Jonny Langefeld" href="/feed.xml">
+  
+    <script>
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50617617-4', 'auto');
+  ga('set', 'anonymizeIp', true)
+  ga('send', 'pageview');
+</script>
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    <a class="site-title" href="/">Jonny Langefeld</a>
+  
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        <a href="/" class="page-link active">Blog</a>
+        <a href="/archive" class="page-link ">Archive</a>
+        <a href="/about" class="page-link ">About</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div id="sidebar">
+  <h1 style="font-size: 21px;">Jonny Langefeld</h1>
+  <p>Software Engineer</p>
+  <p><a href="/about">Who am I?</a></p>
+  <p><a href="/assets/about/Resum%C3%A9%20Jonny%20Langefeld.pdf?v=4" target="_blank">Resumé</a></p>
+  <img src="/assets/Jonny-Langefeld.jpg" />
+
+  <!-- Social links -->
+  <ul class="social-media-list" style="margin-top: 20px; margin-bottom: 30px;">
+    <li>
+      <a href="https://github.com/jonnylangefeld" target="_blank"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jonnylangefeld</span></a>
+
+    </li>
+    <li>
+      <a href="https://twitter.com/jonnylangefeld" target="_blank"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">jonnylangefeld</span></a>
+
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/jonnylangefeld"><span class="icon icon--linked"><svg width="16px" height="16px" viewBox="0 0 430.117 430.117" xml:space="preserve"><path id="LinkedIn" fill="#828282" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707 c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21 v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824 C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463 c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"/></svg>
+</span><span class="username">jonnylangefeld</span></a>
+
+    </li>
+    <li>
+      <a href="https://instagram.com/jonnylangefeld" target="_blank"><span class="icon icon--instagram"><svg aria-hidden="true" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16px" style="padding-right: 4px;"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></span><span class="username">jonnylangefeld</span></a>
+
+    </li>
+  </ul>
+
+  <hr />
+
+  <p style="line-height: 100%">
+  <small>All views expressed are my own and not affiliated with current or former employers.</small>
+</p>
+</div>
+
+
+        <div class="home">
+  
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/how-to-write-a-go-api-part-2-database-integration">How to write a Go API Part 2: Database Integration With GORM</a></h1>
+        <p class="post-meta">
+          <time datetime="2019-02-25T00:00:00+00:00" itemprop="datePublished">
+            
+            Feb 25, 2019
+          </time>
+          </p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        
+            <div>
+              <p>This is part 2 of 3 blog posts on how to write a Go API. Start with the <a href="/blog/how-to-write-a-go-api-part-1-webserver-with-iris">first part</a> to build upon the repository. If you are only interested in the database integration, make sure to <a href="https://github.com/jonnylangefeld/go-api-base-project/archive/part-1.zip">download the source code of the first part</a>, as we are incrementally building upon it.</p>
+
+<p>Most APIs are going to use some kind of database integration. Instead of just using raw SQL to avoid SQL injection and also to abstract the kind of database in the background, there are good reasons to use an <a href="https://en.wikipedia.org/wiki/Object-relational_mapping">ORM or Object-relational mapping</a> (okay, there are also reasons <a href="https://medium.com/@mithunsasidharan/should-i-or-should-i-not-use-orm-4c3742a639ce">against it</a>). It basically means that you implement the database model entirely in the programming language and let the ORM tool do all the SQL generation and model mapping.</p>
+
+<p>For this example, we are going to connect our API to a <a href="https://www.postgresql.org/">PostgreSQL</a> database. For local development, it’s going to be the easiest to just spin up your own development database <a href="https://youtu.be/JprTjTViaEA">via Docker</a> with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run <span class="nt">-d</span> <span class="se">\</span>
+    <span class="nt">--name</span> my-postgis-database <span class="se">\</span>
+    <span class="nt">-e</span> <span class="nv">POSTGRES_PASSWORD</span><span class="o">=</span>mysecretpassword <span class="se">\</span>
+    <span class="nt">-p</span> 5432:5432 
+    mdillon/postgis
+</code></pre></div></div>
+
+<p>The database is now already running in the background as a Docker container on your computer. We will get back to it later. We will be using <a href="https://github.com/jinzhu/gorm">GORM</a> as the Go ORM implementation of choice.</p>
+
+<p>First, we will need a model definition. For this tutorial, we will just use a simple object for some orders in an online store. Each order will have an ID, a description and a timestamp. To define the object, make a new sub directory in the project directory with <code class="language-plaintext highlighter-rouge">mkdir model</code> and create a new file called <code class="language-plaintext highlighter-rouge">model.go</code> inside of it (for instance with <code class="language-plaintext highlighter-rouge">touch model/model.go</code>). Add the following code into the <code class="language-plaintext highlighter-rouge">model.go</code> file:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">model</span>
+
+<span class="c">// Order is the database representation of an order</span>
+<span class="k">type</span> <span class="n">Order</span> <span class="k">struct</span> <span class="p">{</span>
+    <span class="n">ID</span>          <span class="kt">int64</span>  <span class="s">`gorm:"type:int" json:"id"`</span>
+    <span class="n">Description</span> <span class="kt">string</span> <span class="s">`gorm:"type:varchar" json:"description"`</span>
+    <span class="n">Ts</span>          <span class="kt">int64</span>  <span class="s">`gorm:"timestamp" json:"ts"`</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>As you can see, this is a Go object (<code class="language-plaintext highlighter-rouge">struct</code>) with all the attributes we need for our order. You could also say this Go object is a representation for a table in our database later. 
+            </div>
+            <input type="checkbox" class="read-more-state" id="/blog/how-to-write-a-go-api-part-2-database-integration"/>
+            <div class="read-more">
+              </p>
+
+<p>Now let’s go back into our <code class="language-plaintext highlighter-rouge">main.go</code> file and let’s add <code class="language-plaintext highlighter-rouge">"github.com/jinzhu/gorm"</code> and the dialect <code class="language-plaintext highlighter-rouge">_ "github.com/jinzhu/gorm/dialects/postgres"</code> (Don’t forget the underscore as the dialect is not directly used in our main function) as well as our own model definition <code class="language-plaintext highlighter-rouge">"go-api-base-project/model"</code> to our imports :</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">(</span>
+    <span class="s">"fmt"</span>
+    <span class="s">"github.com/jinzhu/gorm"</span>
+    <span class="n">_</span> <span class="s">"github.com/jinzhu/gorm/dialects/postgres"</span>
+    <span class="s">"go-api-base-project/model"</span>
+    <span class="s">"github.com/kataras/iris/v12"</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>These imports are needed for the next code block, which we will insert right at the beginning of the <code class="language-plaintext highlighter-rouge">main()</code> function, even before we call the <code class="language-plaintext highlighter-rouge">newApp()</code> function:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// Create the databse connection</span>
+<span class="n">db</span><span class="p">,</span> <span class="n">err</span> <span class="o">:=</span> <span class="n">gorm</span><span class="o">.</span><span class="n">Open</span><span class="p">(</span>
+    <span class="s">"postgres"</span><span class="p">,</span>
+    <span class="s">"host=localhost port=5432 user=postgres dbname=postgres password=mysecretpassword sslmode=disable"</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="c">// End the program with an error if it could not connect to the database</span>
+<span class="k">if</span> <span class="n">err</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+    <span class="nb">panic</span><span class="p">(</span><span class="s">"could not connect to database"</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="c">// Create the default database schema and a table for the orders</span>
+<span class="n">db</span><span class="o">.</span><span class="n">AutoMigrate</span><span class="p">(</span><span class="o">&amp;</span><span class="n">model</span><span class="o">.</span><span class="n">Order</span><span class="p">{})</span>
+
+<span class="c">// Closes the database connection when the program ends</span>
+<span class="k">defer</span> <span class="k">func</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">_</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Close</span><span class="p">()</span>
+<span class="p">}()</span>
+</code></pre></div></div>
+
+<p>In addition to that we will register another endpoint in the <code class="language-plaintext highlighter-rouge">newApp()</code> function, just like we have done before. We need to instantiate a variable for the result, which is a slice of the <code class="language-plaintext highlighter-rouge">model</code> we defined earlier. The endpoint <code class="language-plaintext highlighter-rouge">/orders</code> will perform a database request via <code class="language-plaintext highlighter-rouge">db.Find(&amp;orders)</code> and return it via <code class="language-plaintext highlighter-rouge">ctx.JSON(orders)</code>. Add the following code at the end of the <code class="language-plaintext highlighter-rouge">newApp()</code> function (but above the <code class="language-plaintext highlighter-rouge">return app</code> statement):</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// Define the slice for the result</span>
+<span class="k">var</span> <span class="n">orders</span> <span class="p">[]</span><span class="n">model</span><span class="o">.</span><span class="n">Order</span>
+
+<span class="c">// Endpoint to perform the database request</span>
+<span class="n">app</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"/orders"</span><span class="p">,</span> <span class="k">func</span><span class="p">(</span><span class="n">ctx</span> <span class="n">iris</span><span class="o">.</span><span class="n">Context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">Find</span><span class="p">(</span><span class="o">&amp;</span><span class="n">orders</span><span class="p">)</span>
+    <span class="c">// Return the result as JSON</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">JSON</span><span class="p">(</span><span class="n">orders</span><span class="p">)</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>It appears that the new endpoint is making use of the <code class="language-plaintext highlighter-rouge">db</code> object we created in the <code class="language-plaintext highlighter-rouge">main()</code> function. In order for it to be used in the <code class="language-plaintext highlighter-rouge">newApp()</code> function, we need to pass it down. Therefore add the payload <code class="language-plaintext highlighter-rouge">db *gorm.DB</code> to the <code class="language-plaintext highlighter-rouge">newApp()</code> function like this:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">func</span> <span class="n">newApp</span><span class="p">(</span><span class="n">db</span> <span class="o">*</span><span class="n">gorm</span><span class="o">.</span><span class="n">DB</span><span class="p">)</span> <span class="o">*</span><span class="n">iris</span><span class="o">.</span><span class="n">Application</span> <span class="p">{</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>and pass the <code class="language-plaintext highlighter-rouge">db</code> object down when the <code class="language-plaintext highlighter-rouge">newApp()</code> function is called in the <code class="language-plaintext highlighter-rouge">main()</code> function:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">app</span> <span class="o">:=</span> <span class="n">newApp</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The updated <code class="language-plaintext highlighter-rouge">main.go</code> file will now look something like this:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="p">(</span>
+    <span class="s">"fmt"</span>
+    <span class="s">"my-go-api/model"</span>
+
+    <span class="s">"github.com/jinzhu/gorm"</span>
+    <span class="n">_</span> <span class="s">"github.com/jinzhu/gorm/dialects/postgres"</span>
+    <span class="s">"github.com/kataras/iris/v12"</span>
+<span class="p">)</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="c">// Create the databse connection</span>
+    <span class="n">db</span><span class="p">,</span> <span class="n">err</span> <span class="o">:=</span> <span class="n">gorm</span><span class="o">.</span><span class="n">Open</span><span class="p">(</span>
+        <span class="s">"postgres"</span><span class="p">,</span>
+        <span class="s">"host=localhost port=5432 user=postgres dbname=postgres password=mysecretpassword sslmode=disable"</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="c">// End the program with an error if it could not connect to the database</span>
+    <span class="k">if</span> <span class="n">err</span> <span class="o">!=</span> <span class="no">nil</span> <span class="p">{</span>
+        <span class="nb">panic</span><span class="p">(</span><span class="s">"could not connect to database"</span><span class="p">)</span>
+    <span class="p">}</span>
+
+    <span class="c">// Create the default database schema and a table for the orders</span>
+    <span class="n">db</span><span class="o">.</span><span class="n">AutoMigrate</span><span class="p">(</span><span class="o">&amp;</span><span class="n">model</span><span class="o">.</span><span class="n">Order</span><span class="p">{})</span>
+
+    <span class="c">// Closes the database connection when the program ends</span>
+    <span class="k">defer</span> <span class="k">func</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">_</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">Close</span><span class="p">()</span>
+    <span class="p">}()</span>
+
+    <span class="c">// Run the function to create the new Iris App</span>
+    <span class="n">app</span> <span class="o">:=</span> <span class="n">newApp</span><span class="p">(</span><span class="n">db</span><span class="p">)</span>
+
+    <span class="c">// Start the web server on port 8080</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">Run</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">Addr</span><span class="p">(</span><span class="s">":8080"</span><span class="p">),</span> <span class="n">iris</span><span class="o">.</span><span class="n">WithoutServerError</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">ErrServerClosed</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">newApp</span><span class="p">(</span><span class="n">db</span> <span class="o">*</span><span class="n">gorm</span><span class="o">.</span><span class="n">DB</span><span class="p">)</span> <span class="o">*</span><span class="n">iris</span><span class="o">.</span><span class="n">Application</span> <span class="p">{</span>
+    <span class="c">// Initialize a new Iris App</span>
+    <span class="n">app</span> <span class="o">:=</span> <span class="n">iris</span><span class="o">.</span><span class="n">New</span><span class="p">()</span>
+
+    <span class="c">// Register the request handler for the endpoint "/"</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"/"</span><span class="p">,</span> <span class="k">func</span><span class="p">(</span><span class="n">ctx</span> <span class="n">iris</span><span class="o">.</span><span class="n">Context</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c">// Return something by adding it to the context</span>
+        <span class="n">ctx</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">)</span>
+    <span class="p">})</span>
+
+    <span class="c">// Register an endpoint with a variable</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"{name:string}"</span><span class="p">,</span> <span class="k">func</span><span class="p">(</span><span class="n">ctx</span> <span class="n">iris</span><span class="o">.</span><span class="n">Context</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span><span class="n">fmt</span><span class="o">.</span><span class="n">Sprintf</span><span class="p">(</span><span class="s">"Hello %s"</span><span class="p">,</span> <span class="n">ctx</span><span class="o">.</span><span class="n">Params</span><span class="p">()</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"name"</span><span class="p">)))</span>
+    <span class="p">})</span>
+
+    <span class="c">// Define the slice for the result</span>
+    <span class="k">var</span> <span class="n">orders</span> <span class="p">[]</span><span class="n">model</span><span class="o">.</span><span class="n">Order</span>
+
+    <span class="c">// Endpoint to perform the database request</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"/orders"</span><span class="p">,</span> <span class="k">func</span><span class="p">(</span><span class="n">ctx</span> <span class="n">iris</span><span class="o">.</span><span class="n">Context</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">Find</span><span class="p">(</span><span class="o">&amp;</span><span class="n">orders</span><span class="p">)</span>
+        <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">JSON</span><span class="p">(</span><span class="n">orders</span><span class="p">)</span>
+    <span class="p">})</span>
+
+    <span class="k">return</span> <span class="n">app</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>As always at this point you can build and run your application again (<code class="language-plaintext highlighter-rouge">go build &amp;&amp; ./my-go-api</code>).<br />
+To see that everything went well, you can install <code class="language-plaintext highlighter-rouge">psql</code> via <strong><code class="language-plaintext highlighter-rouge">brew install postgres</code></strong> and use it in your command line to see if the database table was created correctly:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"SELECT * FROM orders"</span> | <span class="se">\</span>
+psql <span class="s2">"host=localhost port=5432 user=postgres dbname=postgres password=mysecretpassword sslmode=disable"</span>
+</code></pre></div></div>
+
+<p>The result should look like this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">id</span> | description | ts
+<span class="nt">----</span>+-------------+----
+<span class="o">(</span>0 rows<span class="o">)</span>
+</code></pre></div></div>
+
+<p>This table was entirely created by your Go application. Let’s add some life to it. Execute this in your command line:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"INSERT INTO orders VALUES (1, 'An old glove', 1550372443000);</span><span class="se">\</span><span class="s2">
+      INSERT INTO orders VALUES (2, 'Something you don''t need', 1550372444000);"</span> | <span class="se">\</span>
+psql <span class="s2">"host=localhost port=5432 user=postgres dbname=postgres password=mysecretpassword sslmode=disable"</span>
+</code></pre></div></div>
+
+<p>If you execute the <code class="language-plaintext highlighter-rouge">SELECT</code> command from above again, you will now find the two database entries:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> id |       description        |      ts
+----+--------------------------+---------------
+  1 | An old glove             | 1550372444000
+  2 | Something you don't need | 1550372444000
+(2 rows)
+</code></pre></div></div>
+
+<p>But the most fun part is, if you now enter <a href="http://localhost:8080/orders">locahlost:8080/orders</a> in your browser, you will get a JSON response of the orders we just inserted:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"An old glove"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ts"</span><span class="p">:</span><span class="w"> </span><span class="mi">1550372443000</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Something you don't need"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"ts"</span><span class="p">:</span><span class="w"> </span><span class="mi">1550372444000</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Tadaaa 🎉 we integrated the database. You can download the complete source code for this blog post from <a href="https://github.com/jonnylangefeld/go-api-base-project/archive/part-2.zip">here</a>.</p>
+
+<p>Make sure to <a href="/blog/how-to-write-a-go-api-part-3-testing-with-dockertest">continue reading the third part on how to test your API</a>.</p>
+
+            </div>
+            <label for="/blog/how-to-write-a-go-api-part-2-database-integration" class="read-more-trigger"></label>
+        
+      </div>
+
+      <p class="extra-info">
+        
+          Tags: go, golang, api, programming, software development, repo, go base project, gorm
+        
+      </p>
+    </article>
+  
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/how-to-write-a-go-api-part-1-webserver-with-iris">How to write a Go API Part 1: A Webserver With Iris</a></h1>
+        <p class="post-meta">
+          <time datetime="2019-02-18T00:00:00+00:00" itemprop="datePublished">
+            
+            Feb 18, 2019
+          </time>
+          </p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        
+            <div>
+              <p>Today we are going to look at my favorite setup for an API built with Go. We will build a simple application that includes all the basics to build a powerful, scalable web app. Keep on reading if you are interested in how to get your first Go API kicked off. As of today the main packages used include <a href="https://github.com/kataras/iris">Iris</a>, <a href="https://github.com/jinzhu/gorm">GORM</a> and <a href="https://github.com/ory/dockertest">Dockertest</a>. I will be guiding you through a follow-along tutorial in three parts, one for each of the main packages.</p>
+
+<p>For those who are just interested in the finalized code, the complete repository with all files can be found <a href="https://github.com/jonnylangefeld/go-api-base-project">here</a>.
+This tutorial assumes Mac OS as the operating system, but of course everything works on other systems too (It is just some extra work to lookup the respective commands 😉).</p>
+
+<h3 id="where-to-start">Where to Start</h3>
+
+<p>If you haven’t yet, <a href="https://golang.org/doc/install#testing">install Go</a>. For Mac OS it is the easiest to use <a href="https://brew.sh/">brew</a> with the command <code class="language-plaintext highlighter-rouge">brew install go</code>. Then, we initialize our project. With Go version 1.11, modules were introduced, which means from now on you don’t have to develop all you projects in <code class="language-plaintext highlighter-rouge">GOPATH</code> anymore. You create your working directory wherever you want. Start by typing</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">mkdir my-go-api-project</code> to create the directory</li>
+  <li><code class="language-plaintext highlighter-rouge">cd my-go-api-project</code> to change into it</li>
+  <li><code class="language-plaintext highlighter-rouge">go mod init my-go-api</code> to initialize our project</li>
+</ul>
+
+<p>With these commands, you just initialized your Go module. In your directory, you will now find a <code class="language-plaintext highlighter-rouge">go.mod</code> file. So far it’s pretty empty and only contains the package name you gave it, but it’s gonna fill up later with all the dependencies we will be using.<br />
+Next, we will create a <code class="language-plaintext highlighter-rouge">main.go</code> file, as every Go program needs one. You can do so by typing</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"package main"</span> <span class="o">&gt;&gt;</span> main.go
+</code></pre></div></div>
+
+<p>into your command line. Let’s first write a quick hello world program to see if everything works with your Go installation. You can open the current directory with the editor of your choice. I will just be posting the necessary code in here. Fill your <code class="language-plaintext highlighter-rouge">main.go</code> package with the following code (we already created the first line through the command above, I just included it here for completeness):</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="p">(</span>
+    <span class="s">"fmt"</span>
+<span class="p">)</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">fmt</span><span class="o">.</span><span class="n">Printf</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+            </div>
+            <input type="checkbox" class="read-more-state" id="/blog/how-to-write-a-go-api-part-1-webserver-with-iris"/>
+            <div class="read-more">
+              
+<p>Now run <code class="language-plaintext highlighter-rouge">go build</code> in your terminal in the current working directory. A new file with the package name you gave in the <code class="language-plaintext highlighter-rouge">go mod init</code> command earlier has been created. Run the file with <code class="language-plaintext highlighter-rouge">./my-go-api</code>. If you see the output <code class="language-plaintext highlighter-rouge">Hello World</code>, everything is working as expected.</p>
+
+<h3 id="getting-started-with-iris">Getting Started With Iris</h3>
+
+<p><a href="https://github.com/kataras/iris">Iris</a> is one of the more popular, fast, and easy-to-use web frameworks for Go. Of course <a href="https://github.com/mingrammer/go-web-framework-stars">any other</a> could be used, but I decided to use Iris for now, even though there are some critiques <a href="https://www.reddit.com/r/golang/comments/57w79c/why_you_really_should_stop_using_iris/">out there</a>.<br />
+Let’s change our simple hello world program from above, so that an actual web server is started that sends a <code class="language-plaintext highlighter-rouge">Hello World</code> response. Replace the contents in the <code class="language-plaintext highlighter-rouge">main.go</code> file with the following code:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">package</span> <span class="n">main</span>
+
+<span class="k">import</span> <span class="p">(</span>
+    <span class="s">"github.com/kataras/iris/v12"</span>
+<span class="p">)</span>
+
+<span class="k">func</span> <span class="n">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c">// Run the function to create the new Iris App</span>
+    <span class="n">app</span> <span class="o">:=</span> <span class="n">newApp</span><span class="p">()</span>
+
+    <span class="c">// Start the web server on port 8080</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">Run</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">Addr</span><span class="p">(</span><span class="s">":8080"</span><span class="p">),</span> <span class="n">iris</span><span class="o">.</span><span class="n">WithoutServerError</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">ErrServerClosed</span><span class="p">))</span>
+<span class="p">}</span>
+
+<span class="k">func</span> <span class="n">newApp</span><span class="p">()</span> <span class="o">*</span><span class="n">iris</span><span class="o">.</span><span class="n">Application</span> <span class="p">{</span>
+    <span class="c">// Initialize a new Iris App</span>
+    <span class="n">app</span> <span class="o">:=</span> <span class="n">iris</span><span class="o">.</span><span class="n">New</span><span class="p">()</span>
+
+    <span class="c">// Register the request handler for the endpoint "/"</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"/"</span><span class="p">,</span> <span class="k">func</span><span class="p">(</span><span class="n">ctx</span> <span class="n">iris</span><span class="o">.</span><span class="n">Context</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c">// Return something by adding it to the context</span>
+        <span class="n">ctx</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span><span class="s">"Hello World"</span><span class="p">)</span>
+    <span class="p">})</span>
+
+    <span class="k">return</span> <span class="n">app</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The comments should explain what we did there. Note that I now import <code class="language-plaintext highlighter-rouge">github.com/kataras/iris/v12</code>. Try to run</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>go build
+</code></pre></div></div>
+
+<p>now. Your binary <code class="language-plaintext highlighter-rouge">my-go-api</code> will be updated, but more importantly the command just downloaded all the packages needed from github.com. Check out your <code class="language-plaintext highlighter-rouge">go.mod</code> file now, you will see it now contains all the dependencies of Iris. Run the app again with</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./my-go-api
+</code></pre></div></div>
+
+<p>and access <a href="http://localhost:8080">locahlost:8080</a> in your browser now. Congrats 🎉! You just started your own API.</p>
+
+<h3 id="variable-endpoints">Variable Endpoints</h3>
+
+<p>Now, let’s create one new endpoint with a variable path. Just add another <code class="language-plaintext highlighter-rouge">app.Get</code> reference right next to the existing one:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">// Register an endpoint with a variable</span>
+<span class="n">app</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"{name:string}"</span><span class="p">,</span> <span class="k">func</span><span class="p">(</span><span class="n">ctx</span> <span class="n">iris</span><span class="o">.</span><span class="n">Context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span><span class="n">fmt</span><span class="o">.</span><span class="n">Sprintf</span><span class="p">(</span><span class="s">"Hello %s"</span><span class="p">,</span> <span class="n">ctx</span><span class="o">.</span><span class="n">Params</span><span class="p">()</span><span class="o">.</span><span class="n">Get</span><span class="p">(</span><span class="s">"name"</span><span class="p">)))</span>
+<span class="p">})</span>
+</code></pre></div></div>
+
+<p>The <code class="language-plaintext highlighter-rouge">ctx.Params().Get("name")</code> part accesses the variable from the context. Don’t forget to import the package <code class="language-plaintext highlighter-rouge">fmt</code> now, since we need it to generate the string with a variable:</p>
+
+<div class="language-go highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">(</span>
+    <span class="s">"fmt"</span>
+    <span class="s">"github.com/kataras/iris/v12"</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">go build</code> and run your application again with <code class="language-plaintext highlighter-rouge">./my-go-api</code>. Check out <a href="http://localhost:8080/Bill">locahlost:8080/Bill</a> in your browser.</p>
+
+<p>You did it 🎊! From here you can now expand and scale your API. You can download the complete source code for this blog post <a href="https://github.com/jonnylangefeld/go-api-base-project/archive/part-1.zip">here</a>.</p>
+
+<p>Make sure to <a href="/blog/how-to-write-a-go-api-part-2-database-integration">continue reading part two on how to integrate a database</a>.</p>
+
+            </div>
+            <label for="/blog/how-to-write-a-go-api-part-1-webserver-with-iris" class="read-more-trigger"></label>
+        
+      </div>
+
+      <p class="extra-info">
+        
+          Tags: go, golang, api, programming, software development, repo, go base project, iris
+        
+      </p>
+    </article>
+  
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/python-flask-base-project">Python Flask Base Project</a></h1>
+        <p class="post-meta">
+          <time datetime="2018-10-07T00:00:00+00:00" itemprop="datePublished">
+            
+            Oct 7, 2018
+          </time>
+          </p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        
+            <div>
+              <p>This blog post describes my favorite setup of a project skeleton for a Python Flask web app or api. Keep on reading if you are interested in best practices for a Python Flask folder structure, architecture setup and testing. The repository with all files can be found <a href="https://github.com/jonnylangefeld/flask-base-project">here</a>. It’s helpful for this blog post to download the repository. I’ll explain all necessary files and the folder structure.</p>
+
+<h3 id="docker-first">Docker First</h3>
+
+<p>Like many of my projects, I like to dockerize everything. This also leads me to the only prerequisite: have Docker installed (<a href="https://www.youtube.com/watch?v=JprTjTViaEA">I made a video how to install it</a>). I like that everything is included with Docker and I can virtually run it on any cloud platform (because all of them offer container hosting services / webapps). Apart from that, I’ve often had the case, that one Python package doesn’t like the other. So if you happen to develop multiple projects on your computer ever, then it’s very likely that you run into similar issues. Docker takes care of it and separates each project from one another. It’s like a lightweight linux instance with only Python installed. I don’t like Python’s virtualenvs too much, because it copies all Python dependencies into my working directory.  <br />
+The container is built on a lightweight linux container. So let’s start with the Dockerfile. In case you don’t know what that is, I also recommend watching the linked video above. The steps are as follows:</p>
+<ul>
+  <li>Required packages from <code class="language-plaintext highlighter-rouge">requirements.txt</code> are installed</li>
+  <li>All files required by the app are copied inside the container</li>
+  <li>Tests are executed on container build</li>
+  <li>The app will be executed with the entrypoint <code class="language-plaintext highlighter-rouge">python app.py</code>:</li>
+</ul>
+
+<div class="language-docker highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">FROM</span><span class="s"> python:3.7-alpine3.7</span>
+<span class="k">COPY</span><span class="s"> ./requirements.txt /requirements.txt</span>
+<span class="k">RUN </span>pip3 <span class="nb">install</span> <span class="nt">-r</span> /requirements.txt
+<span class="k">COPY</span><span class="s"> ./app /app</span>
+<span class="k">WORKDIR</span><span class="s"> /app</span>
+<span class="k">RUN </span>pytest
+<span class="k">CMD</span><span class="s"> [ "python", "app.py" ]</span>
+</code></pre></div></div>
+<p>The Dockerfile is necessary to build the container. But as you might have guessed, we still need the files the Dockerfile is referring to, so let’s look into the file structure before you start the build.</p>
+
+<h3 id="file-structure">File Structure</h3>
+
+<p>Let’s start with the high level structure and we will go into more details after that:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── Dockerfile
+├── app
+│   ├── app.py
+├── deploy.sh
+├── readme.md
+└── requirements.txt
+</code></pre></div></div>
+
+            </div>
+            <input type="checkbox" class="read-more-state" id="/blog/python-flask-base-project"/>
+            <div class="read-more">
+              
+<p>So there’s the <code class="language-plaintext highlighter-rouge">Dockerfile</code> we already talked about, there’s an <code class="language-plaintext highlighter-rouge">app/</code> directory that contains all files the Python app needs, there is a <code class="language-plaintext highlighter-rouge">deploy.sh</code> script, which contains a skeleton for a bash deployment script to any cloud provider (this file can be ignored if not needed), there’s a readme as in any good repo and there’s the <code class="language-plaintext highlighter-rouge">requirements.txt</code> that was mentioned in the Dockerfile. The Dockerfile copies the <code class="language-plaintext highlighter-rouge">app/</code> directory and the <code class="language-plaintext highlighter-rouge">requirements.txt</code> file inside the container and installs all packages defined in the <code class="language-plaintext highlighter-rouge">requirements.txt</code> file.</p>
+
+<h3 id="the-requirementstxt-file">The <code class="language-plaintext highlighter-rouge">requirements.txt</code> File</h3>
+
+<p>The file structure of this is super easy. There’s basically one row for each package and two equals character and then the version. You can lookup the latest version <a href="https://pypi.org/">here</a>. I put the necessary packages to get started in there, but you probably want to add the packages you need.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Flask==1.0.2
+requests==2.19.1
+pytest==3.8.0
+</code></pre></div></div>
+<p>Now that we got that packages covered, that get installed on Docker build, only the <code class="language-plaintext highlighter-rouge">app/</code> directory is missing.</p>
+
+<h3 id="the-app-directory">The <code class="language-plaintext highlighter-rouge">app/</code> Directory</h3>
+
+<p>Actually in the simplified folder structure above, I left most of the contents of the <code class="language-plaintext highlighter-rouge">app/</code> directory out to confuse less in the beginning. Bet now that we unwrapped the different parts of the repo, let’s look at it’s contents:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── app
+│   ├── app.py
+│   ├── templates
+│   │   └── index.html
+│   ├── static
+│   │   ├── css
+│   │   │   ├── bootstrap.min.css
+│   │   │   └── custom.css
+│   │   ├── img
+│   │   └── js
+│   │       ├── bootstrap.min.js
+│   │       ├── custom.js
+│   │       └── jquery-3.3.1.min.js
+│   ├── pytest.ini
+│   └── testing
+│       ├── integration_test.py
+│       └── unit_test.py
+</code></pre></div></div>
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">app.py</code> file is where all the magic happens and I will go deeper into it in a minute.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">/templates</code> directory will contain html template files for all main screens within your app. Think of it as the layout, and the logic of your app fills it later with contents. The template language is called <a href="http://jinja.pocoo.org/docs/2.10/"><strong>Jinja2</strong></a>. It has cool features like loops, variables and if statements right inside of the template. (<a href="http://jinja.pocoo.org/">The instagram website uses this Template language</a>, isn’t that cool?)</li>
+  <li>The <code class="language-plaintext highlighter-rouge">/static</code> folder contains all not variable web elements like css scripts, javascripts or images. I’ve pre-loaded this base repository with bootstrap and jquery as well as custom css and javascripts, but you can delete what you don’t want. Not the unique way of including those file into your html site though. If you open the <code class="language-plaintext highlighter-rouge">index.html</code> file, where we include bootstrap and jquery, you’ll find something like <code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" href="{ { url_for('static', filename='css/bootstrap.min.css') }}" /&gt;</code> in the header. This already calls a Jinja function to generate the url that directs to the static folder and then the sub folder <code class="language-plaintext highlighter-rouge">/css</code> and then to <code class="language-plaintext highlighter-rouge">bootstrap.min.css</code>.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">pytest.ini</code> file contains some preferences for testing</li>
+  <li>The <code class="language-plaintext highlighter-rouge">/testing</code> directory contains the actual scripts for unit tests and integration tests. With unit tests I test the single functions defined in the <code class="language-plaintext highlighter-rouge">app.py</code> script and their outputs, and with integration tests, I spin up an entire Flask test client, that can query itself for API calls.</li>
+</ul>
+
+<p>Now that we covered the entire file structure, the last part missing is to look into the Python files:</p>
+
+<h3 id="the-apppy-file">The <code class="language-plaintext highlighter-rouge">app.py</code> File</h3>
+
+<p>The overall structure of the file is as follows (described in meta code):</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">core</span> <span class="n">packages</span>
+
+<span class="kn">import</span> <span class="nn">third</span> <span class="n">party</span> <span class="n">packages</span>
+
+<span class="c1"># define needed classes and functions functions
+</span><span class="k">def</span> <span class="nf">classes_and_functions</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span> <span class="c1"># define the Flask app
+</span>
+<span class="c1"># definition of the endpoints
+</span><span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">'/'</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">'GET'</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="s">"""Return the index.html page"""</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">'index.html'</span><span class="p">)</span>
+
+<span class="c1"># start the app
+</span><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">'__main__'</span><span class="p">:</span>
+    <span class="n">app</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s">'0.0.0.0'</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">80</span><span class="p">,</span> <span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>I think the meta code including the comments is pretty self explanatory. Eventually I will add an <code class="language-plaintext highlighter-rouge">/utils</code> directory that allows importing own classes and functions.</p>
+
+<h3 id="the-integration_testpy-and-unit_testpy-files">The <code class="language-plaintext highlighter-rouge">integration_test.py</code> and <code class="language-plaintext highlighter-rouge">unit_test.py</code> files</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">pytest.ini</code> file defines that it will look in the /app directory inside the Docker container for a directory called <code class="language-plaintext highlighter-rouge">/testing</code>. Inside this directory it will run all Python files that begin with <code class="language-plaintext highlighter-rouge">test_</code> or end with <code class="language-plaintext highlighter-rouge">_test</code>. Hence our two files in the directory will be executed. Both have the same imports:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pytest</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">sys</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="s">'/app'</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">app</span> <span class="kn">import</span> <span class="n">app</span>
+</code></pre></div></div>
+
+<p>The last two lines of the code block above make sure that the testing file always looks in the <code class="language-plaintext highlighter-rouge">/app</code> directory in the root of the Docker container. Inside there, it will look for the <code class="language-plaintext highlighter-rouge">app.py</code> file (because of the <code class="language-plaintext highlighter-rouge">from app</code> keyword) and for the <code class="language-plaintext highlighter-rouge">app</code> variable inside that file (because of the <code class="language-plaintext highlighter-rouge">import app</code> keyword).  <br />
+<code class="language-plaintext highlighter-rouge">pytest</code> will just run through all function that start with <code class="language-plaintext highlighter-rouge">test_</code> in their name. I’ve added a few examples to those files, so it’s the easiest to check them out in the repo.   <br />
+For the <code class="language-plaintext highlighter-rouge">test_integration.py</code> file, after the import block, there is a <a href="https://docs.pytest.org/en/latest/fixture.html">pytest fixture</a> defined. Mainly it spins up the Flask test client once and keeps it alive during the entire run of the integration test. This is necessary for when you have logins to your app and certain requests to your endpoints only work if a user is logged in. So one of your first tests would then be to login a sample user.</p>
+
+<p><img src="/assets/posts/pycharm-tests.png" width="250" align="right" style="margin: 15px" /></p>
+
+<h3 id="project-setup-in-pycharm">Project Setup in PyCharm</h3>
+
+<p>I like the testing and debug features of PyCharm, so I included the <code class="language-plaintext highlighter-rouge">.idea/</code> directory into the repo. In there are definitions like to execute the tests inside the Docker container. Or when you click the debug button, it will spin up the container including the debugger so your brake points will work inside the containers. So when you open this repo with PyCharm, this would already be implemented.  <br />
+<img src="/assets/posts/pycharm-run-configurations.png" width="250" align="left" style="margin: 15px" /></p>
+
+<p>Look out for the run configurations within PyCharm. The <code class="language-plaintext highlighter-rouge">my-flask-app</code> configuration is to run and debug the actual app (inside the container) and the <code class="language-plaintext highlighter-rouge">pytest</code> configuration runs and debugs the tests (inside the container). I configured the run configurations so they would mount the <code class="language-plaintext highlighter-rouge">app/</code> directory inside the container. That means you don’t need to rebuild the container for every run (only once in the beginning).</p>
+
+<h3 id="next-steps">Next Steps</h3>
+
+<p>I have a few more ideas that I want to include in upcoming updates:</p>
+<ul>
+  <li>a <code class="language-plaintext highlighter-rouge">utils/</code> directory that excludes all classes and functions, which then can be imported in the <code class="language-plaintext highlighter-rouge">app.py</code> file</li>
+  <li>a sample database connection with an ORM (object-role modeling) implementation</li>
+</ul>
+
+            </div>
+            <label for="/blog/python-flask-base-project" class="read-more-trigger"></label>
+        
+      </div>
+
+      <p class="extra-info">
+        
+          Tags: python, programming, software development, repo
+        
+      </p>
+    </article>
+  
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/hello-world">Hello World!</a></h1>
+        <p class="post-meta">
+          <time datetime="2018-09-23T00:00:00+00:00" itemprop="datePublished">
+            
+            Sep 23, 2018
+          </time>
+          </p>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        
+            <p>Welcome! You found me online!  <br />
+This is my first post on my personal website, on which I post things I’m interested in. I will use this space for thoughts, ideas, experiences and dreams. 
+My name is Jonathan Langefeld, but almost everybody calls me Jonny. My mum used to call me Jonny from a young age and it stated in 6th grade, when a teacher picked up my nickname, that everybody started calling me Jonny.  <br />
+I live in Silicon Valley where I am persuing a professional carrier as computer scientist. Over the years I gained a broad skill set that reaches from software development over project management all the way to data science and machine learning. If you want to learn more about me, head over to the <a href="/about">about page</a> or check out my <a href="/assets/about/Resumé Jonny Langefeld.pdf">resumé</a>.</p>
+
+<h3 id="what-you-can-expect">What you can expect:</h3>
+
+<p>I love talking about all kinds of topics and am generally interested in what you have to say. If you let me choose the topic though, there is a high likelyhood for it to circle around finance, business and entrepreneurship or computer science. This can long from the stock market, investing, retirement savings, real estate, passive income, dividends, cryptocurrencies, startups, company histories, small businesses or digital nomadism all the way to software development, coding challenges, Docker, Python, web development, machine learning, data science or deep learning. I love to combine those topics, hence I am very interested in young fintechs and digital payments/stores of value and things of that sort.  <br />
+If you have any question, feel free to reach out to me through one of my social media channels or via the <a href="/about">contact form</a>.</p>
+
+<p>💻</p>
+
+        
+      </div>
+
+      <p class="extra-info">
+        
+          Tags: init, first post, hello world
+        
+      </p>
+    </article>
+  
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    
+      <a href="/" class="previous">Newer</a>
+    
+    /
+    
+      <span class="next ">Older</span>
+    
+  </div>
+
+</div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+            <a href="https://github.com/jonnylangefeld" target="_blank"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">jonnylangefeld</span></a>
+
+          </li>
+          <li>
+            <a href="https://twitter.com/jonnylangefeld" target="_blank"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">jonnylangefeld</span></a>
+
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jonnylangefeld"><span class="icon icon--linked"><svg width="16px" height="16px" viewBox="0 0 430.117 430.117" xml:space="preserve"><path id="LinkedIn" fill="#828282" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707 c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21 v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824 C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463 c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"/></svg>
+</span><span class="username">jonnylangefeld</span></a>
+
+          </li>
+          <li>
+            <a href="https://instagram.com/jonnylangefeld" target="_blank"><span class="icon icon--instagram"><svg aria-hidden="true" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16px" style="padding-right: 4px;"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></span><span class="username">jonnylangefeld</span></a>
+
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2"></div>
+
+      <div class="footer-col footer-col-3" style="text-align: right">
+        <p>email: <a href="mailto:jonny.langefeld@gmail.com">jonny.langefeld@gmail.com</a><br />
+          twitter: <a href="https://twitter.com/jonnylangefeld" target="_blank">@jonnylangefeld</a></p>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script type="text/javascript">
+  var links = document.links;
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+      links[i].target = '_blank';
+    } 
+  }
+</script>
+
+
+  </body>
+
+</html>
